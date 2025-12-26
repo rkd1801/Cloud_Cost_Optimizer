@@ -1,0 +1,178 @@
+{
+  "project_name": "Food Delivery App",
+  "analysis": {
+    "total_monthly_cost": 28480.0,
+    "budget": 50000,
+    "budget_variance": -21520.0,
+    "service_costs": {
+      "Compute": 10500.0,
+      "Database": 11600.0,
+      "Storage": 2900.0,
+      "Networking": 580.0,
+      "Monitoring": 2900.0
+    },
+    "is_over_budget": false
+  },
+  "recommendations": {
+    "cost_optimization_report": {
+      "profile": {
+        "name": "Food Delivery App",
+        "budget_inr_per_month": 50000,
+        "description": "A food delivery app for 10,000 users per month",
+        "tech_stack": {
+          "backend": "Node.js",
+          "database": "PostgreSQL",
+          "storage": "Object Storage",
+          "monitoring": "Monitoring",
+          "analytics": "Basic Analytics"
+        },
+        "non_functional_requirements": [
+          "Scalability",
+          "Cost Efficiency",
+          "Uptime Monitoring"
+        ]
+      },
+      "billing_summary": {
+        "Compute": 10500.0,
+        "Database": 11600.0,
+        "Storage": 2900.0,
+        "Networking": 580.0,
+        "Monitoring": 2900.0
+      },
+      "recommendations": [
+        {
+          "cloud": "AWS",
+          "recommendation": "Migrate to AWS Spot Instances",
+          "savings": 2000.0,
+          "risks": [
+            "Potential for instance termination"
+          ],
+          "steps": [
+            "Identify eligible instances for Spot Instances",
+            "Configure Spot Instances in AWS"
+          ]
+        },
+        {
+          "cloud": "Azure",
+          "recommendation": "Use Azure Reserved VM Instances",
+          "savings": 1500.0,
+          "risks": [
+            "Commitment to reserved instances"
+          ],
+          "steps": [
+            "Identify eligible VMs for Reserved Instances",
+            "Purchase Reserved VM Instances in Azure"
+          ]
+        },
+        {
+          "cloud": "GCP",
+          "recommendation": "Optimize GCP Compute Engine instances",
+          "savings": 1200.0,
+          "risks": [
+            "Potential for instance underutilization"
+          ],
+          "steps": [
+            "Identify underutilized instances in GCP",
+            "Optimize instance sizes and configurations"
+          ]
+        },
+        {
+          "cloud": "Open Source",
+          "recommendation": "Use open-source alternatives to commercial databases",
+          "savings": 800.0,
+          "risks": [
+            "Potential for data loss or corruption"
+          ],
+          "steps": [
+            "Identify eligible databases for open-source alternatives",
+            "Migrate to open-source databases"
+          ]
+        },
+        {
+          "cloud": "AWS",
+          "recommendation": "Implement AWS CloudWatch alarms for cost optimization",
+          "savings": 1000.0,
+          "risks": [
+            "Potential for false alarms"
+          ],
+          "steps": [
+            "Configure CloudWatch alarms for cost optimization",
+            "Monitor and adjust alarms as needed"
+          ]
+        },
+        {
+          "cloud": "Azure",
+          "recommendation": "Use Azure Cost Estimator for cost planning",
+          "savings": 500.0,
+          "risks": [
+            "Potential for inaccurate estimates"
+          ],
+          "steps": [
+            "Configure Azure Cost Estimator",
+            "Use estimates for cost planning and optimization"
+          ]
+        },
+        {
+          "cloud": "GCP",
+          "recommendation": "Optimize GCP Storage costs",
+          "savings": 900.0,
+          "risks": [
+            "Potential for data loss or corruption"
+          ],
+          "steps": [
+            "Identify eligible storage for optimization",
+            "Optimize storage costs in GCP"
+          ]
+        },
+        {
+          "cloud": "Open Source",
+          "recommendation": "Use open-source monitoring tools",
+          "savings": 600.0,
+          "risks": [
+            "Potential for data loss or corruption"
+          ],
+          "steps": [
+            "Identify eligible monitoring tools for open-source alternatives",
+            "Migrate to open-source monitoring tools"
+          ]
+        },
+        {
+          "cloud": "AWS",
+          "recommendation": "Implement AWS Cost Explorer for cost optimization",
+          "savings": 800.0,
+          "risks": [
+            "Potential for inaccurate data"
+          ],
+          "steps": [
+            "Configure AWS Cost Explorer",
+            "Use Cost Explorer for cost optimization and planning"
+          ]
+        },
+        {
+          "cloud": "Azure",
+          "recommendation": "Use Azure Advisor for cost optimization",
+          "savings": 700.0,
+          "risks": [
+            "Potential for inaccurate data"
+          ],
+          "steps": [
+            "Configure Azure Advisor",
+            "Use Advisor for cost optimization and planning"
+          ]
+        },
+        {
+          "cloud": "GCP",
+          "recommendation": "Optimize GCP Networking costs",
+          "savings": 1100.0,
+          "risks": [
+            "Potential for data loss or corruption"
+          ],
+          "steps": [
+            "Identify eligible networking for optimization",
+            "Optimize networking costs in GCP"
+          ]
+        }
+      ]
+    }
+  }
+}

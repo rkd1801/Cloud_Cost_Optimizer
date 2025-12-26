@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "name",
+    "budget_inr_per_month",
+    "description",
+    "tech_stack",
+    "non_functional_requirements"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "budget_inr_per_month": {
+      "type": "number"
+    },
+    "description": {
+      "type": "string"
+    },
+    "tech_stack": {
+      "type": "object"
+    },
+    "non_functional_requirements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}
