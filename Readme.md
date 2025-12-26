@@ -125,5 +125,11 @@ GROQ_API_KEY=your_groq_api_key_here
 
 🔐 The .env file is excluded from version control.
 
-### 4 Running the Application
+
+## ▶️ How to Run (Important)
+
+Always run the project from the **parent directory** (e.g. Desktop):
+
+```bash
+cd path/to/Desktop
 python -m cloud_cost_optimizer.main
