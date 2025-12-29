@@ -133,3 +133,12 @@ Always run the project from the **parent directory** (e.g. Desktop):
 ```bash
 cd path/to/Desktop
 python -m cloud_cost_optimizer.main
+
+##  HTML Report
+
+- **What**: Generates an HTML summary of the cost optimization report.
+- **How to generate**: Run the pipeline (for example `python -m cloud_cost_optimizer.main`), or use the CLI menu.
+- **Where it's saved**: The HTML file is exported to your Desktop (OneDrive Desktop fallback) with the filename pattern `cloud_cost_report_<YYYYMMDD_HHMMSS>.html`.
+- **Auto-open**: The report attempts to open automatically in your default browser after generation.
+- **See code**: `report/export_report.py` contains the exporter logic and filename pattern.
+
