@@ -7,47 +7,47 @@
     "usage_quantity": 10,
     "unit": "hours",
     "cost_inr": 1500.0,
-    "desc": "EC2 Instance (t2.micro)"
+    "desc": "EC2 instance usage"
   },
   {
     "month": "2022-01",
     "service": "Database",
-    "resource_id": "db-0123456789abcdef0",
+    "resource_id": "rds-0123456789abcdef0",
     "region": "us-west-2",
-    "usage_quantity": 1000,
-    "unit": "reads",
+    "usage_quantity": 100,
+    "unit": "hours",
     "cost_inr": 2000.0,
-    "desc": "RDS Instance (db.t2.micro)"
+    "desc": "RDS instance usage"
   },
   {
     "month": "2022-01",
     "service": "Storage",
     "resource_id": "s3-0123456789abcdef0",
     "region": "us-west-2",
-    "usage_quantity": 1000,
+    "usage_quantity": 500,
     "unit": "GB",
-    "cost_inr": 500.0,
-    "desc": "S3 Bucket"
+    "cost_inr": 1000.0,
+    "desc": "S3 bucket usage"
   },
   {
     "month": "2022-01",
     "service": "Networking",
     "resource_id": "vpc-0123456789abcdef0",
     "region": "us-west-2",
-    "usage_quantity": 100,
+    "usage_quantity": 10,
     "unit": "vpc",
-    "cost_inr": 100.0,
-    "desc": "VPC"
+    "cost_inr": 500.0,
+    "desc": "VPC usage"
   },
   {
     "month": "2022-01",
     "service": "Monitoring",
     "resource_id": "cloudwatch-0123456789abcdef0",
     "region": "us-west-2",
-    "usage_quantity": 1000,
-    "unit": "metrics",
-    "cost_inr": 500.0,
-    "desc": "CloudWatch Metrics"
+    "usage_quantity": 100,
+    "unit": "logs",
+    "cost_inr": 800.0,
+    "desc": "CloudWatch logs usage"
   },
   {
     "month": "2022-02",
@@ -57,146 +57,146 @@
     "usage_quantity": 15,
     "unit": "hours",
     "cost_inr": 2250.0,
-    "desc": "EC2 Instance (t2.micro)"
+    "desc": "EC2 instance usage"
   },
   {
     "month": "2022-02",
     "service": "Database",
-    "resource_id": "db-0123456789abcdef1",
+    "resource_id": "rds-0123456789abcdef1",
     "region": "us-west-2",
-    "usage_quantity": 1200,
-    "unit": "reads",
+    "usage_quantity": 120,
+    "unit": "hours",
     "cost_inr": 2400.0,
-    "desc": "RDS Instance (db.t2.micro)"
+    "desc": "RDS instance usage"
   },
   {
     "month": "2022-02",
     "service": "Storage",
     "resource_id": "s3-0123456789abcdef1",
     "region": "us-west-2",
-    "usage_quantity": 1200,
+    "usage_quantity": 550,
     "unit": "GB",
-    "cost_inr": 600.0,
-    "desc": "S3 Bucket"
+    "cost_inr": 1100.0,
+    "desc": "S3 bucket usage"
   },
   {
     "month": "2022-02",
     "service": "Networking",
     "resource_id": "vpc-0123456789abcdef1",
     "region": "us-west-2",
-    "usage_quantity": 120,
+    "usage_quantity": 12,
     "unit": "vpc",
-    "cost_inr": 120.0,
-    "desc": "VPC"
+    "cost_inr": 600.0,
+    "desc": "VPC usage"
   },
   {
     "month": "2022-02",
     "service": "Monitoring",
     "resource_id": "cloudwatch-0123456789abcdef1",
     "region": "us-west-2",
-    "usage_quantity": 1200,
-    "unit": "metrics",
-    "cost_inr": 600.0,
-    "desc": "CloudWatch Metrics"
+    "usage_quantity": 110,
+    "unit": "logs",
+    "cost_inr": 880.0,
+    "desc": "CloudWatch logs usage"
   },
   {
     "month": "2022-03",
     "service": "Compute",
     "resource_id": "i-0123456789abcdef2",
     "region": "us-west-2",
-    "usage_quantity": 20,
+    "usage_quantity": 18,
     "unit": "hours",
-    "cost_inr": 3000.0,
-    "desc": "EC2 Instance (t2.micro)"
+    "cost_inr": 2700.0,
+    "desc": "EC2 instance usage"
   },
   {
     "month": "2022-03",
     "service": "Database",
-    "resource_id": "db-0123456789abcdef2",
+    "resource_id": "rds-0123456789abcdef2",
     "region": "us-west-2",
-    "usage_quantity": 1600,
-    "unit": "reads",
-    "cost_inr": 3200.0,
-    "desc": "RDS Instance (db.t2.micro)"
+    "usage_quantity": 140,
+    "unit": "hours",
+    "cost_inr": 2800.0,
+    "desc": "RDS instance usage"
   },
   {
     "month": "2022-03",
     "service": "Storage",
     "resource_id": "s3-0123456789abcdef2",
     "region": "us-west-2",
-    "usage_quantity": 1600,
+    "usage_quantity": 600,
     "unit": "GB",
-    "cost_inr": 800.0,
-    "desc": "S3 Bucket"
+    "cost_inr": 1200.0,
+    "desc": "S3 bucket usage"
   },
   {
     "month": "2022-03",
     "service": "Networking",
     "resource_id": "vpc-0123456789abcdef2",
     "region": "us-west-2",
-    "usage_quantity": 160,
+    "usage_quantity": 15,
     "unit": "vpc",
-    "cost_inr": 160.0,
-    "desc": "VPC"
+    "cost_inr": 750.0,
+    "desc": "VPC usage"
   },
   {
     "month": "2022-03",
     "service": "Monitoring",
     "resource_id": "cloudwatch-0123456789abcdef2",
     "region": "us-west-2",
-    "usage_quantity": 1600,
-    "unit": "metrics",
-    "cost_inr": 800.0,
-    "desc": "CloudWatch Metrics"
+    "usage_quantity": 120,
+    "unit": "logs",
+    "cost_inr": 960.0,
+    "desc": "CloudWatch logs usage"
   },
   {
     "month": "2022-04",
     "service": "Compute",
     "resource_id": "i-0123456789abcdef3",
     "region": "us-west-2",
-    "usage_quantity": 25,
+    "usage_quantity": 20,
     "unit": "hours",
-    "cost_inr": 3750.0,
-    "desc": "EC2 Instance (t2.micro)"
+    "cost_inr": 3000.0,
+    "desc": "EC2 instance usage"
   },
   {
     "month": "2022-04",
     "service": "Database",
-    "resource_id": "db-0123456789abcdef3",
+    "resource_id": "rds-0123456789abcdef3",
     "region": "us-west-2",
-    "usage_quantity": 2000,
-    "unit": "reads",
-    "cost_inr": 4000.0,
-    "desc": "RDS Instance (db.t2.micro)"
+    "usage_quantity": 160,
+    "unit": "hours",
+    "cost_inr": 3200.0,
+    "desc": "RDS instance usage"
   },
   {
     "month": "2022-04",
     "service": "Storage",
     "resource_id": "s3-0123456789abcdef3",
     "region": "us-west-2",
-    "usage_quantity": 2000,
+    "usage_quantity": 650,
     "unit": "GB",
-    "cost_inr": 1000.0,
-    "desc": "S3 Bucket"
+    "cost_inr": 1300.0,
+    "desc": "S3 bucket usage"
   },
   {
     "month": "2022-04",
     "service": "Networking",
     "resource_id": "vpc-0123456789abcdef3",
     "region": "us-west-2",
-    "usage_quantity": 200,
+    "usage_quantity": 18,
     "unit": "vpc",
-    "cost_inr": 200.0,
-    "desc": "VPC"
+    "cost_inr": 900.0,
+    "desc": "VPC usage"
   },
   {
     "month": "2022-04",
     "service": "Monitoring",
     "resource_id": "cloudwatch-0123456789abcdef3",
     "region": "us-west-2",
-    "usage_quantity": 2000,
-    "unit": "metrics",
-    "cost_inr": 1000.0,
-    "desc": "CloudWatch Metrics"
+    "usage_quantity": 130,
+    "unit": "logs",
+    "cost_inr": 1040.0,
+    "desc": "CloudWatch logs usage"
   }
 ]

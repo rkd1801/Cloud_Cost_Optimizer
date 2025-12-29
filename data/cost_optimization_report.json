@@ -1,175 +1,151 @@
 {
   "project_name": "Food Delivery App",
   "analysis": {
-    "total_monthly_cost": 28480.0,
+    "total_monthly_cost": 30880.0,
     "budget": 50000,
-    "budget_variance": -21520.0,
+    "budget_variance": -19120.0,
     "service_costs": {
-      "Compute": 10500.0,
-      "Database": 11600.0,
-      "Storage": 2900.0,
-      "Networking": 580.0,
-      "Monitoring": 2900.0
+      "Compute": 9450.0,
+      "Database": 10400.0,
+      "Storage": 4600.0,
+      "Networking": 2750.0,
+      "Monitoring": 3680.0
     },
     "is_over_budget": false
   },
   "recommendations": {
     "cost_optimization_report": {
-      "profile": {
-        "name": "Food Delivery App",
-        "budget_inr_per_month": 50000,
-        "description": "A food delivery app for 10,000 users per month",
-        "tech_stack": {
-          "backend": "Node.js",
-          "database": "PostgreSQL",
-          "storage": "Object Storage",
-          "monitoring": "Monitoring",
-          "analytics": "Basic Analytics"
-        },
-        "non_functional_requirements": [
-          "Scalability",
-          "Cost Efficiency",
-          "Uptime Monitoring"
-        ]
+      "name": "Food Delivery App",
+      "budget_inr_per_month": 50000,
+      "description": "Building a food delivery app for 10,000 users per month",
+      "tech_stack": {
+        "backend": "Node.js",
+        "database": "PostgreSQL",
+        "storage": "Object storage",
+        "monitoring": "Monitoring",
+        "analytics": "Basic analytics"
       },
+      "non_functional_requirements": [
+        "Scalability",
+        "Cost efficiency",
+        "Uptime monitoring"
+      ],
       "billing_summary": {
-        "Compute": 10500.0,
-        "Database": 11600.0,
-        "Storage": 2900.0,
-        "Networking": 580.0,
-        "Monitoring": 2900.0
+        "Compute": 9450.0,
+        "Database": 10400.0,
+        "Storage": 4600.0,
+        "Networking": 2750.0,
+        "Monitoring": 3680.0
       },
       "recommendations": [
         {
           "cloud": "AWS",
-          "recommendation": "Migrate to AWS Spot Instances",
           "savings": 2000.0,
           "risks": [
-            "Potential for instance termination"
+            "Vendor lock-in"
           ],
           "steps": [
-            "Identify eligible instances for Spot Instances",
-            "Configure Spot Instances in AWS"
+            "Migrate to AWS Lambda for serverless computing",
+            "Use AWS S3 for object storage"
           ]
         },
         {
           "cloud": "Azure",
-          "recommendation": "Use Azure Reserved VM Instances",
           "savings": 1500.0,
           "risks": [
-            "Commitment to reserved instances"
+            "Integration with existing infrastructure"
           ],
           "steps": [
-            "Identify eligible VMs for Reserved Instances",
-            "Purchase Reserved VM Instances in Azure"
+            "Use Azure Functions for serverless computing",
+            "Migrate to Azure Blob Storage for object storage"
           ]
         },
         {
           "cloud": "GCP",
-          "recommendation": "Optimize GCP Compute Engine instances",
           "savings": 1200.0,
           "risks": [
-            "Potential for instance underutilization"
+            "Limited support for Node.js"
           ],
           "steps": [
-            "Identify underutilized instances in GCP",
-            "Optimize instance sizes and configurations"
+            "Use Cloud Functions for serverless computing",
+            "Migrate to Cloud Storage for object storage"
           ]
         },
         {
           "cloud": "Open Source",
-          "recommendation": "Use open-source alternatives to commercial databases",
-          "savings": 800.0,
+          "savings": 3000.0,
           "risks": [
-            "Potential for data loss or corruption"
+            "Lack of support and maintenance"
           ],
           "steps": [
-            "Identify eligible databases for open-source alternatives",
-            "Migrate to open-source databases"
+            "Use Kubernetes for containerization",
+            "Migrate to Open Source object storage solutions"
           ]
         },
         {
           "cloud": "AWS",
-          "recommendation": "Implement AWS CloudWatch alarms for cost optimization",
           "savings": 1000.0,
           "risks": [
-            "Potential for false alarms"
+            "Vendor lock-in"
           ],
           "steps": [
-            "Configure CloudWatch alarms for cost optimization",
-            "Monitor and adjust alarms as needed"
+            "Use AWS RDS for database optimization",
+            "Migrate to AWS S3 for database storage"
           ]
         },
         {
           "cloud": "Azure",
-          "recommendation": "Use Azure Cost Estimator for cost planning",
-          "savings": 500.0,
+          "savings": 800.0,
           "risks": [
-            "Potential for inaccurate estimates"
+            "Integration with existing infrastructure"
           ],
           "steps": [
-            "Configure Azure Cost Estimator",
-            "Use estimates for cost planning and optimization"
+            "Use Azure Database for PostgreSQL",
+            "Migrate to Azure Blob Storage for database storage"
           ]
         },
         {
           "cloud": "GCP",
-          "recommendation": "Optimize GCP Storage costs",
-          "savings": 900.0,
+          "savings": 600.0,
           "risks": [
-            "Potential for data loss or corruption"
+            "Limited support for PostgreSQL"
           ],
           "steps": [
-            "Identify eligible storage for optimization",
-            "Optimize storage costs in GCP"
+            "Use Cloud SQL for PostgreSQL",
+            "Migrate to Cloud Storage for database storage"
           ]
         },
         {
           "cloud": "Open Source",
-          "recommendation": "Use open-source monitoring tools",
-          "savings": 600.0,
+          "savings": 2500.0,
           "risks": [
-            "Potential for data loss or corruption"
+            "Lack of support and maintenance"
           ],
           "steps": [
-            "Identify eligible monitoring tools for open-source alternatives",
-            "Migrate to open-source monitoring tools"
+            "Use PostgreSQL with Open Source storage solutions",
+            "Optimize database configuration"
           ]
         },
         {
           "cloud": "AWS",
-          "recommendation": "Implement AWS Cost Explorer for cost optimization",
-          "savings": 800.0,
+          "savings": 500.0,
           "risks": [
-            "Potential for inaccurate data"
+            "Vendor lock-in"
           ],
           "steps": [
-            "Configure AWS Cost Explorer",
-            "Use Cost Explorer for cost optimization and planning"
+            "Use AWS CloudWatch for monitoring",
+            "Migrate to AWS S3 for monitoring data storage"
           ]
         },
         {
           "cloud": "Azure",
-          "recommendation": "Use Azure Advisor for cost optimization",
-          "savings": 700.0,
+          "savings": 400.0,
           "risks": [
-            "Potential for inaccurate data"
+            "Integration with existing infrastructure"
           ],
           "steps": [
-            "Configure Azure Advisor",
-            "Use Advisor for cost optimization and planning"
-          ]
-        },
-        {
-          "cloud": "GCP",
-          "recommendation": "Optimize GCP Networking costs",
-          "savings": 1100.0,
-          "risks": [
-            "Potential for data loss or corruption"
-          ],
-          "steps": [
-            "Identify eligible networking for optimization",
-            "Optimize networking costs in GCP"
+            "Use Azure Monitor for monitoring",
+            "Migrate to Azure Blob Storage for monitoring data storage"
           ]
         }
       ]
